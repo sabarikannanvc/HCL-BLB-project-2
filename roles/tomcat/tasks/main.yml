@@ -1,6 +1,6 @@
 ---
-- name: update repository 
-  apt: 
+- name: update repository
+  apt:
   update_cache: true
   
 - name: Install Java 1.8
