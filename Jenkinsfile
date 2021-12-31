@@ -10,7 +10,7 @@ pipeline {
       stage('checkout') {
            steps {
              
-                git branch: 'master', url: 'https://github.com/puneetbhatia77/HCL-BLB-project-2.git'
+                git branch: 'master', url: 'https://github.com/sabarikannanvc/HCL-BLB-project-2.git'
              
           }
         }
